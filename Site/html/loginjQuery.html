@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Site Web basique Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/exojQuery.css" />
+
+    </head>
+    <body>
+        <header>
+            <h1>Site Web basique</h1>
+            <!--Barre de nav-->
+            <div id="navbarre">
+                <p><a href="acceuiljQuery.html">Accueil</a></p>
+                <p><a href="inscriptionjQuery.html"> Inscription</a></p>
+                <p>Login</p>
+                <div class="pagelogin"><p><a href="Catalogue.html">Catalogue</a></p></div>
+                <div class="pagelogin"><p><a href="carrousel.html">Carrousel</a></p></div>
+            </div>
+
+        </header>
+
+        <h2>Authentification</h2>
+
+        <div id="formulaire">
+
+            <table>
+
+                <tr>
+                    <td><label id="logemail">E-mail:</label></td>
+                    <td><input type='text' placeholder='E-mail' id='userlogemail' class="obligatoire"  /></td>
+                </tr>
+
+                <br/>
+
+                <tr>
+                    <td><label id="logmdp">Mot de passe:</label></td>
+                    <td><input type='password' placeholder='Mot de passe' id='userlogmdp' class="obligatoire" /></td>
+                </tr>
+
+                <tr>
+                    <td><label for="chkMdpVisible" class="etiquette">Mot de passe visible</label></td>
+                    <td><input type="checkbox" name="chkMdpVisible" id="chkMdpVisible"  value="ON" /></td>
+
+                </tr>
+
+                <tr>
+                    <td><input type="button" id="btvalider" value="Valider"/></td>
+
+
+                    <td><input type="button" id="btreset" value="Réinitialiser"/></td>
+                </tr>
+
+            </table>
+
+            <br/>
+
+
+            <label id="message">Message</label>
+            <br/>
+            <label id="verification">Verfification</label>
+
+
+
+        </div>
+        <script src="../json/utilisateur.json"></script>
+        <script src="../fib/jquery/jquery.js"></script>
+        <script src="../js/utilisateur.js"></script>
+        <script src="../js/loginjQuery.js"></script>
+        
+
+    </body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Acceuil</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/exojQuery.css" />
+        <script src="../fib/jquery/jquery.js"></script>
+        <script src="../fib/jquery/ui/jquery-ui-1.12.1/"></script>
+
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+        <script>
+            // Accordeon1
+            function init() {
+                // --- La balise qui sert d'en-tete de soufflet
+                $("#accordeon").accordion({header: "h5"});
+            }
+
+            $(document).ready(init);
+        </script>
+
+        <script>
+            // Accordeon2
+            function init() {
+                // --- La balise qui sert d'en-tete de soufflet
+                $("#accordeon2").accordion({header: "h5"});
+            }
+
+            $(document).ready(init);
+        </script>
+
+        <script>
+            // Accordeon3
+            function init() {
+                // --- La balise qui sert d'en-tete de soufflet
+                $("#accordeon3").accordion({header: "h5"});
+            }
+
+            $(document).ready(init);
+        </script>
+
+        <script>
+            ///Onglets
+            $(function () {
+                $("#onglets").tabs();
+            });
+        </script>
+
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Site Web basique</h1>
+
+            <!--Barre de nav-->
+
+            <div id="navbarre">
+                <div class="pageacceuil"><a href="acceuiljQuery.html"><p>Accueil</a></p></div>
+                <div class="pageinscription"><p><a href="inscriptionjQuery.html"> Inscription</a></p></div>
+                <div class="pagelogin"><p><a href="loginjQuery.html">Login</a></p></div>
+                <div class="pagelogin"><p>Catalogue</p></div>
+                <div class="pagelogin"><p><a href="carrousel.html">Carrousel</a></p></div>
+            </div>
+
+        </header>
+        
+        <div id="onglets">
+            <ul>
+                <li><a href="#tabs-1">Des photos</a></li>
+                <li><a href="#tabs-2">Des gifs</a></li>
+                <li><a href="#tabs-3">Du texte en latin</a></li>
+            </ul>
+
+
+            <div id="tabs-1">
+                <div id="centre">
+
+                    <h3>Des photos</h3>
+                    <div id="accordeon">
+
+
+                        <div class="soufflet">
+                            <h5><a href="#">C'est jolie, ouvrez vite!</a></h5>
+                            <div class="contenuSoufflet">
+                                <ul>
+                                    <li><img src="../images/La_Grande_mosquee_de_Kairouan.jpg" /></li>
+                                    <li><img src="../images/brume-sur-les-toits.jpg" /></li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <div class="soufflet">
+                            <h5><a href="#">Encore de photos? Génial!</a></h5>
+                            <div class="contenuSoufflet">
+                                <ul>
+                                    <li><img src="../images/brume-sur-les-toits.jpg"/></li>
+                                    <li><img src="../images/le-pont-dans-la-tourmente.jpg"/></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div> <!-- /div accordeon -->
+            </div>
+
+
+            <div id="tabs-2">
+                <div id="centre">
+
+                    <h3>Des gifs a gogo</h3>
+                    <div id="accordeon2">
+
+
+                        <div class="soufflet">
+                            <h5><a href="#">Les GIF c'est drôle!</a></h5>
+                            <div class="contenuSoufflet">
+                                <ul>
+                                    <li><img src="../images/dauphin.gif" /></li>
+                                    <li><img src="../images/lool.gif" /></li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <div class="soufflet">
+                            <h5><a href="#">Très drôle même!</a></h5>
+                            <div class="contenuSoufflet">
+                                <ul>
+                                    <li><img src="../images/blanche_neige.gif"/></li>
+                                    <li><img src="../images/guy.gif"/></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div> <!-- /div accordeon -->
+            </div>
+
+
+            <div id="tabs-3">
+                <div id="centre">
+
+                    <h3>Des choses non compréhensibles</h3>
+                    <div id="accordeon3">
+
+
+                        <div class="soufflet">
+                            <h5><a href="#">C'est sympa le texte en latin</a></h5>
+                            <div class="contenuSoufflet">
+                                <ul>
+                                    <li><p>Mauris eleifend est et turpis. Duis id erat.Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+                                    </li>
+                                    <li><p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at,semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <div class="soufflet">
+                            <h5><a href="#">Mega lol même!</a></h5>
+                            <div class="contenuSoufflet">
+                                <ul>
+                                    <li>Sed ut tum ad senem senex de senectute, sic hoc libro ad amicum amicissimus scripsi de amicitia. Tum est Cato locutus, quo erat nemo fere senior temporibus illis, nemo prudentior; nunc Laelius et sapiens (sic enim est habitus) et amicitiae gloria excellens de amicitia loquetur. Tu velim a me animum parumper avertas, Laelium loqui ipsum putes. C. Fannius et Q. Mucius ad socerum veniunt post mortem Africani; ab his sermo oritur, respondet Laelius, cuius tota disputatio est de amicitia, quam legens te ipse cognosces.
+                                        Et quoniam mirari posse quosdam peregrinos existimo haec lecturos forsitan, si contigerit, quamobrem cum oratio ad ea monstranda deflexerit quae Romae gererentur, nihil praeter seditiones narratur et tabernas et vilitates harum similis alias, summatim causas perstringam nusquam a veritate sponte propria digressurus.
+                                        Nihil morati post haec militares avidi saepe turbarum adorti sunt Montium primum, qui divertebat in proximo, levi corpore senem atque morbosum, et hirsutis resticulis cruribus eius innexis divaricaturn sine spiramento ullo ad usque praetorium traxere praefecti.
+                                    </li>
+                                    <li>Nam quibusdam, quos audio sapientes habitos in Graecia, placuisse opinor mirabilia quaedam (sed nihil est quod illi non persequantur argutiis): partim fugiendas esse nimias amicitias, ne necesse sit unum sollicitum esse pro pluribus; satis superque esse sibi suarum cuique rerum, alienis nimis implicari molestum esse; commodissimum esse quam laxissimas habenas habere amicitiae, quas vel adducas, cum velis, vel remittas; caput enim esse ad beate vivendum securitatem, qua frui non possit animus, si tamquam parturiat unus pro pluribus.
+                                        Homines enim eruditos et sobrios ut infaustos et inutiles vitant, eo quoque accedente quod et nomenclatores adsueti haec et talia venditare, mercede accepta lucris quosdam et prandiis inserunt subditicios ignobiles et obscuros.
+                                        Orientis vero limes in longum protentus et rectum ab Euphratis fluminis ripis ad usque supercilia porrigitur Nili, laeva Saracenis conterminans gentibus, dextra pelagi fragoribus patens, quam plagam Nicator Seleucus occupatam auxit magnum in modum, cum post Alexandri Macedonis obitum successorio iure teneret regna Persidis, efficaciae inpetrabilis rex, ut indicat cognomentum.
+                                        Quam ob rem vita quidem talis fuit vel fortuna vel gloria, ut nihil posset accedere, moriendi autem sensum celeritas abstulit; quo de genere mortis difficile dictu est; quid homines suspicentur, videtis; hoc vere tamen licet dicere, P. Scipioni ex multis diebus, quos in vita celeberrimos laetissimosque viderit, illum diem clarissimum fuisse, cum senatu dimisso domum reductus ad vesperum est a patribus conscriptis, populo Romano, sociis et Latinis, pridie quam excessit e vita, ut ex tam alto dignitatis gradu ad superos videatur deos potius quam ad inferos pervenisse.
+                                        Restabat ut Caesar post haec properaret accitus et abstergendae causa suspicionis sororem suam, eius uxorem, Constantius ad se tandem desideratam venire multis fictisque blanditiis hortabatur. quae licet ambigeret metuens saepe cruentum, spe tamen quod eum lenire poterit ut germanum profecta, cum Bithyniam introisset, in statione quae Caenos Gallicanos appellatur, absumpta est vi febrium repentina. cuius post obitum maritus contemplans cecidisse fiduciam qua se fultum existimabat, anxia cogitatione, quid moliretur haerebat.
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div> <!-- /div accordeon -->
+
+            </div>
+
+
+
+
+    </body>
+</html>

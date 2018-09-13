@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Site Web basique Inscription</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/exojQuery.css" />
+
+    </head>
+    <body>
+        <header>
+            <h1>Site Web basique</h1>
+            <!--Barre de nav-->
+            <div id="navbarre">
+                <p><a href="acceuiljQuery.html">Accueil</a></p>
+                <p>Inscription</p>
+                <p><a href="loginjQuery.html">Login</a></p>
+                <div class="pagelogin"><p><a href="Catalogue.html">Catalogue</a></p></div>
+                <div class="pagelogin"><p><a href="carrousel.html">Carrousel</a></p></div>
+            </div>
+
+        </header>
+
+        <main>
+
+            <h2>Inscription</h2>
+
+            <div id="formulaire">
+
+                <table>
+                    <tr>
+                        <td> <label id="civilite">Civilité:</label> </td>
+                        <td> <input type="radio" id="madame" name="civilite" value="Madame">Madame </td>
+                        <td> <input type="radio" id="monsieur" name="civilite" value="Monsieur">Monsieur </td>
+                    </tr>
+
+
+
+                    <tr>
+                        <td> <label id="nom">Nom:</label> </td>
+                        <td> <input type="text" placeholder="Nom" id="username" class="obligatoire"/> </td>
+
+                    </tr>
+
+
+                    <tr>
+                        <td> <label id="prenom">Prenom</label> </td>
+                        <td> <input type="text" placeholder="Prenom" id="userfirstname" class="obligatoire"/> </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label id="email">Email</label> </td>
+                        <td> <input type="email" placeholder="E-mail" id="useremail" class="obligatoire"/> </td>
+                    </tr>
+
+                    <tr>
+                        <td><label id="remail">Retapez l'email</label></td>
+                        <td><input type="email" placeholder="Confirmation Email" id="userreemail" class="obligatoire"/></td>
+                    </tr>
+
+                    <tr>
+                        <td><label id="mdp">Mot de passe</label></td>
+                        <td><input type="password" placeholder="Mot de passe" id="usermdp" class="obligatoire"/></td>
+                    </tr>
+
+                    <tr>
+                        <td><label id="remdp">Retapez le mot de passe</label></td>
+                        <td><input type="password" placeholder="Confirmation Email" id="userremdp" class="obligatoire"/></td>
+                    </tr>
+
+                    <tr>
+                        <td> <label id="cv">CV</label></td>
+                        <td><textarea placeholder="CV" id="usercv" class="obligatoire" rows="4" cols='40'> Tapez votre CV ici</textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td> <label id="adresse">Adresse</label></td>
+                        <td><input type="text" placeholder="Adresse" id="useradresse" class="obligatoire"/></td>
+                    </tr>
+
+                    <tr>
+                        <td><label id="hobbies">Hobbies</label></td>
+                        <td><input type="text" placeholder="Hobbies" id="userhobbies" /></td>
+                    </tr>
+
+                    <tr>
+                        <td> <input type="button" id="btvalider" value="Valider"/></td>
+
+                        <td><input type="button" id="btreset" value="Réinitialiser"/></td>
+                    </tr>
+
+
+                </table>
+
+
+
+
+                <td><label id="message">Message</label></td>
+
+
+
+            </div>
+
+        </main>
+
+        <script src="../fib/jquery/jquery.js"></script>
+        <script src="../js/incriptionsQuery.js"></script>
+    </body>
+</html>

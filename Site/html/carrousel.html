@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Site Web basique Acceuil</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/exojQuery.css" />   
+
+        <!-- jQuery -->
+        <script src="http://ma5slider.ma5.pl/js/jquery.min.js"></script>
+
+        <!-- jQuery UI mouse draggable widget -->
+        <script src="http://ma5slider.ma5.pl/js/jquery-ui.min.js"></script>
+
+        <!-- Touch Event Support for jQuery UI -->
+        <script src="http://ma5slider.ma5.pl/js/jquery.ui.touch-punch.min.js"></script>
+
+        <!-- MA5 Slider -->
+        <link href="http://ma5slider.ma5.pl/css/ma5slider.min.css" rel="stylesheet" type="text/css">
+
+     
+
+
+        <script src="http://ma5slider.ma5.pl/js/ma5slider.min.js"></script>
+
+        <script>
+            $(window).on('load', function () {
+                $('.ma5slider').ma5slider();
+            });
+        </script>
+
+
+
+    </head>
+    <body>
+
+        <header>
+            <h1>Site Web basique</h1>
+
+            <!--Barre de nav-->
+
+            <div id="navbarre">
+                <div class="pageacceuil"><a href="acceuiljQuery.html"><p>Accueil</a></p></div>
+                <div class="pageinscription"><p><a href="inscriptionjQuery.html"> Inscription</a></p></div>
+                <div class="pagelogin"><p><a href="loginjQuery.html">Login</a></p></div>
+                <div class="pagelogin"><a href="Catalogue.html"><p>Catalogue</a></p></div>
+                <div class="pagelogin"><p>Carrousel</p></div>
+            </div>
+
+        </header>
+
+
+        <main>
+
+            <h2>Carousel</h2>
+
+            <div class="ma5slider outside-navs outside-dots anim-horizontal loop-mode" >
+                <div class="slides">
+                    <!-- children = slides -->
+                    <a href="#slide-1"><img src="../images/La_Grande_mosquee_de_Kairouan.jpg" alt=""></a>
+                    <a href="#slide-2"><img src="../images/brume-sur-les-toits.jpg" alt=""></a>
+                    <a href="#slide-3"><img src="../images/japan_street.jpg" alt=""></a>
+                    <a href="#slide-4"><img src="../images/le-pont-dans-la-tourmente.jpg" alt=""></a>
+                    <a href="#slide-5"><img src="../images/sous_la_pluie.jpg" alt=""></a>
+
+                </div>
+
+
+        </main>
+    </body>
+</html>

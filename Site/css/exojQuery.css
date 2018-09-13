@@ -1,0 +1,95 @@
+/*PAGE*/
+
+body, html {
+    height: auto;
+    width: auto;
+}
+
+body{
+    background-color: black;
+    color: white;
+
+}
+
+header{
+    background-color: lightblue;
+    text-align: center;
+}
+
+
+#navbarre{
+    text-align: center;
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#photo{
+    margin-left:30%;
+    margin-right: 30%;
+   
+}
+
+h1 {
+   font-size: 50px; 
+}
+
+h2 {
+    font-size: 25px;
+}
+
+
+#formulaire{
+    border: 3px brown groove;
+}
+
+table{
+    width: "auto"; 
+    height :"auto";
+}
+
+/*POPUP*/
+
+#popup {
+    position:fixed;
+    top: 25%;
+    bottom: 25%;
+    left: 25%;
+    right:25%;
+
+}
+
+
+/*TEXTE*/
+
+#texte1, #texte2, #texte3{
+    color: white;
+    font-weight: 700;
+
+}
+
+#texte1{
+    position:absolute;
+    right: 60px;
+    bottom: 15px;
+}
+
+#texte2{
+    position:absolute;
+    right: 30%;
+    bottom: 65%;
+}
+
+#texte3{
+    position:absolute;
+    right: 15%;
+    bottom: 30%;
+}
+
+
